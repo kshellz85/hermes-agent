@@ -833,6 +833,9 @@ def _skill_manage_description() -> str:
         "when <trigger>. <one-line behavior>.' Write lessons, not logs: "
         "imperative rule + why, no PR numbers/dates/incident narration, one "
         "rule per lesson, references/ named by topic (extend before adding). "
+        "Cite code by file and identifier plus a grep hint, never a bare "
+        "line range — line ranges rot on the next refactor, and a wrong one "
+        "reads as verified in a way a missing one never does. "
         "skill_view() shows format conventions."
     )
 
